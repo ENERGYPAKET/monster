@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Monster</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+	<script>
+	var utm = window.location.search.replace( '?', ''); 
+	var link = "question-1.html"+"?";
+	var final = link + utm;
+	function Click()
+	{
+		window.location.href=final;
+	}
+</script>
+	<header>
+		
+	</header>
+	<div class="container">
+		<div class="content">
+			<div class="content__title">
+				Freunde!
+			</div>
+			<div class="content__text">			
+				Wir wählen 500 Teilnehmer zufällig aus, denen wir 
+				einen Kühlschrank mit neuen Getränken völlig 
+				kostenlos zusenden werden. 
+				Sie müssen nur eine kurze Umfrage beantworten 
+				und ein Formular  auf der Webseite ausfüllen!
+			</div>
+		</div>
+	</div>
+	<a href="#" onclick="Click();return false;">
+		<div class="btn">
+			<img src="assets/img/btn_go.png" alt="">
+		</div>
+	</a>
+</body>
+</html>
